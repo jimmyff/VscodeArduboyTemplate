@@ -2,12 +2,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "ProjectABE",
+            "name": "Run ProjectABE (VS Windows)",
             "type": "cppvsdbg",
             "request": "launch",
             "program": "ProjectABE",
             "args": [
-                "${workspaceFolder}\\build\\${workspaceFolderBasename}.ino.hex"
+                "${workspaceFolder}/build/${workspaceFolderBasename}.ino.hex"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "name": "Run ProjectABE (GDB/LLDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            
+            "program": "ProjectABE",
+            "args": [
+                "${workspaceFolder}/build/${workspaceFolderBasename}.ino.hex"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

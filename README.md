@@ -21,7 +21,7 @@ file: `.vscode/c_app_properties.json`
     // ...
 
     // add this (dont forget comma on line above)
-    "..\\libraries"
+    "../libraries"
     ]
 ```
 

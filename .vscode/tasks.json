@@ -5,7 +5,7 @@
             "label": "Launch Hex in ProjectABE",
             "type": "process",
             "args": [
-                "${workspaceFolder}\\build\\${workspaceFolderBasename}.ino.hex"
+                "${workspaceFolder}/build/${workspaceFolderBasename}.ino.hex"
             ],
             "command": "ProjectABE",
             "problemMatcher": [],
