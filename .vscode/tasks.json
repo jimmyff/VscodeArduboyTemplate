@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch Hex in ProjectABE",
+            "type": "process",
+            "args": [
+                "${workspaceFolder}\\build\\${workspaceFolderBasename}.ino.hex"
+            ],
+            "command": "ProjectABE",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
